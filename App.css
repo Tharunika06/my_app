@@ -1,0 +1,405 @@
+/* App.css - Styling for the About Us page */
+
+/* Global Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f9f9;
+}
+
+.about-us-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navigation Styles */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.shop-button {
+  background-color: #ffc107;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-link {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.logo-container {
+  background-color: #35d0d0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.logo {
+  font-weight: bold;
+  color: white;
+}
+
+.reserve-button {
+  background: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.icon-container {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #35d0d0;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.know-more-button {
+  background-color: #ffc107;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cup-illustration {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  font-size: 2rem;
+  opacity: 0.7;
+}
+
+.hero-image {
+  width: 45%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* What Makes Us Special Section */
+.special-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.special-content {
+  width: 60%;
+}
+
+.special-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.special-description {
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.values-diagram {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.value-bubble {
+  position: absolute;
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: 80px;
+  height: 80px;
+}
+
+.flavors {
+  background-color: #7dd3f7;
+  top: 20%;
+  left: 10%;
+}
+
+.innovative {
+  background-color: #f5a6ca;
+  top: 10%;
+  left: 40%;
+}
+
+.joyful {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  top: 20%;
+  right: 20%;
+}
+
+.extraordinary {
+  background-color: #f8e173;
+  bottom: 20%;
+  right: 10%;
+}
+
+.delicious {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  bottom: 30%;
+  left: 5%;
+}
+
+.value-center {
+  position: absolute;
+  background-color: #ffcccb;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  top: 40%;
+  left: 30%;
+}
+
+.special-image {
+  width: 35%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.special-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Journey Section */
+.journey-section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f9f0f0;
+  border-radius: 10px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.timeline-images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.timeline-images img {
+  width: 32%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.timeline-years {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.year-item {
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.year-item.active {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.timeline-content {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+
+/* Mission Section */
+.mission-section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mission-content p {
+  width: 60%;
+  line-height: 1.6;
+}
+
+.mission-images {
+  width: 35%;
+  display: flex;
+  gap: 10px;
+}
+
+.mission-images img {
+  width: 48%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/* Founder Message */
+.founder-section {
+  margin-bottom: 60px;
+  padding: 30px;
+  background-color: #5fd3d3;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.founder-content {
+  position: relative;
+  padding: 0 30px;
+}
+
+.quote-marks {
+  font-size: 4rem;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.closing-quote {
+  right: 0;
+  bottom: 0;
+  top: auto;
+  left: auto;
+}
+
+.founder-message {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.founder-name {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.founder-title {
+  margin-top: 5px;
+  opacity: 0.9;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-icon {
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .hero-section, .special-section, .mission-content {
+    flex-direction: column;
+  }
+  
+  .hero-image, .special-image, .special-content, .mission-content p, .mission-images {
+    width: 100%;
+  }
+  
+  .hero-image {
+    margin-top: 30px;
+  }
+  
+  .values-diagram {
+    height: 400px;
+  }
+  
+  .value-bubble {
+    width: 70px;
+    height: 70px;
+    font-size: 0.8rem;
+  }
+}
